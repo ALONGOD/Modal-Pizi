@@ -1,0 +1,82 @@
+.filesButton {
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.dialog {
+    width: 400px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.header {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.body {
+    margin-bottom: 20px;
+}
+
+.dropZone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px dashed #444;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    color: #888;
+}
+
+.text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link {
+    color: #1a73e8;
+    cursor: pointer;
+}
+
+.hiddenInput {
+    display: none;
+}
+
+.info {
+    margin-top: 10px;
+    color: #bbb;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footerButton {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
